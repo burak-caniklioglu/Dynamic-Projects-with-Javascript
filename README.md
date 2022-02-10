@@ -6,4 +6,4 @@
 <br>
 
 ## Exact Age Calculator
-<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/JS _Exact_Age_Calculator/index.html"><img src="./JS _Exact_Age_Calculator/img/SS.PNG" width = "100%"></a>
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/JS_Exact_Age_Calculator/index.html"><img src="./JS _Exact_Age_Calculator/img/SS.PNG" width = "100%"></a>

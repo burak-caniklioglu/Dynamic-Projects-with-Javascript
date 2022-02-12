@@ -18,6 +18,7 @@ let seven = document.querySelector(".number7");
 let eight = document.querySelector(".number8");
 let nine = document.querySelector(".number9");
 let zero = document.querySelector(".number0");
+let inzero = document.querySelector(".zero");
 let ac = document.querySelector(".ac");
 let pulsub = document.querySelector(".pulsub");
 let mod = document.querySelector(".mod");
@@ -122,8 +123,11 @@ zero.addEventListener("click", () => {
         screen.innerHTML = ""
     }
     flag = false;
-  screen.innerHTML = screen.innerHTML + zero.innerHTML;
+  screen.innerHTML = screen.innerHTML + inzero.innerHTML;
   temp1 = Number(screen.innerHTML);
+  if(screen.innerHTML == "0"){
+    flag = true
+  }
 });
 
 

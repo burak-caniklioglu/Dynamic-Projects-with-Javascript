@@ -90,8 +90,13 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
+.zero{
+    position: relative;
+    right: 1.33rem;
+}
 .number0{
     grid-area: zero;
     border-radius: 2rem;
@@ -139,6 +144,7 @@ hr{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .ac{
@@ -171,6 +177,7 @@ hr{
 .operator{
     background-color: rgb(250, 174, 33);
     border-radius: 100%;
+    cursor: pointer;
     
 }
 

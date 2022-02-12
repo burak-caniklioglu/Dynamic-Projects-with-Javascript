@@ -51,6 +51,7 @@
 }
 
 .results > span{
+    padding-right: 1rem;
     font-size: 2rem;
     font-weight: 100;
     font-family: 'Work Sans', sans-serif;
@@ -94,6 +95,7 @@ hr{
 .number0{
     grid-area: zero;
     border-radius: 2rem;
+    
 }
 
 .number1{
@@ -131,38 +133,32 @@ hr{
     grid-area: nine;
 }
 
-
-.ac{
-    grid-area: AC;
-    font-weight: 1000;
+.btn{
     background-color: rgb(156, 155, 155);
     border-radius: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.ac{
+    grid-area: AC;
+    font-weight: 1000;
+    
     
 }
 
 .pulsub{
     grid-area: plus-minus;
     background-color: rgb(156, 155, 155);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .pulsub img{
     width: 40%;
     
 }
-.mod{
-    background-color: rgb(156, 155, 155);
-    border-radius: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 .equal{
     grid-area: equal;
     
@@ -172,12 +168,19 @@ hr{
     font-size: 0.2rem;
     
 }
-.divide, .multiple, .minus, .pulse, .equal{
+.operator{
     background-color: rgb(250, 174, 33);
     border-radius: 100%;
     
 }
 
-.divide .fa, .multiple .fa, .minus .fa, .pulse .fa, .equal .fa{
-    opacity: 0.7;
+.operator .fa{
+    opacity: 0.6;
+}
+
+.fill{
+    width: 30%;
+    margin: auto;
+    padding-top: 6px;
+    border-bottom: 2px solid white ;
 }

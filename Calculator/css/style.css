@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: 'Work Sans', sans-serif;
+    
+
+}
+
+.container{
+    width: 12rem;
+    height: 25rem;
+    margin: auto;
+    margin-top: 3rem;
+    border: 3px solid black;
+    border-radius: 1.7rem;
+    background-color: rgb(19, 18, 19);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 90%;
+    
+}
+.clock > span{
+    font-size: 0.4rem;
+    font-weight: 400;
+    color: white;
+}
+.icon-area{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+}
+
+.top .fa{
+    font-size: 0.4rem;
+    color: white;
+}
+
+.results{
+    height: 33%;
+    color: white;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    border-bottom: 1px solid rgb(90, 90, 90);
+}
+
+.results > span{
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Work Sans', sans-serif;
+}
+hr{
+    color: rgb(145, 131, 131);
+}
+.math{
+    height: 55%;
+    
+    
+    
+    
+}
+.numbers{
+    
+    height: 100%;
+    width: 95%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: 
+    "AC plus-minus mod divide"
+    "seven eight nine multiply"
+    "four five six sub"
+    "one two three add"
+    "zero zero dot equal";
+    gap: 0.4rem 0.4rem;
+    margin:auto
+
+}
+
+.number{
+    color: white;
+    border-radius: 100%;
+    background-color: rgb(83, 83, 83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number0{
+    grid-area: zero;
+    border-radius: 2rem;
+}
+
+.number1{
+    grid-area: one;
+}
+
+.number2{
+    grid-area: two;
+}
+.number3{
+    grid-area: three;
+}
+
+.number4{
+    grid-area: four;
+}
+
+.number5{
+    grid-area: five;
+}
+
+.number6{
+    grid-area: six;
+}
+
+.number7{
+    grid-area: seven;
+}
+
+.number8{
+    grid-area: eight;
+}
+
+.number9{
+    grid-area: nine;
+}
+
+
+.ac{
+    grid-area: AC;
+    font-weight: 1000;
+    background-color: rgb(156, 155, 155);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.pulsub{
+    grid-area: plus-minus;
+    background-color: rgb(156, 155, 155);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pulsub img{
+    width: 40%;
+    
+}
+.mod{
+    background-color: rgb(156, 155, 155);
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.equal{
+    grid-area: equal;
+    
+}
+
+.dot .fa{
+    font-size: 0.2rem;
+    
+}
+.divide, .multiple, .minus, .pulse, .equal{
+    background-color: rgb(250, 174, 33);
+    border-radius: 100%;
+    
+}
+
+.divide .fa, .multiple .fa, .minus .fa, .pulse .fa, .equal .fa{
+    opacity: 0.7;
+}

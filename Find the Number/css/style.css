@@ -124,3 +124,13 @@ button{
     text-align: center;
     color: rgb(167, 38, 117);
 }
+.again{
+    margin-left: 8rem;
+    visibility: hidden;
+}
+
+.tried{
+    display: flex;
+    flex-wrap: wrap;
+    
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find the Number</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Guess the Number [ 1 - 100 ]</h1>
+        <br><br><br><br><br><br>
+        <div class="paragraph">
+            <p>Number of Attempts : </p>
+            <div id="result">0</div>
+        </div>
+      </div>
+
+      <div class="imagination">
+        <div class="larger">
+            <p class="larger-p">a larger number</p>
+            <div class="up">
+              <img src="./images/noun-arrow-2683873.png" alt="" />
+            </div>
+        </div>
+        <div class="smaller">
+            <div class="down">
+                <img src="./images/noun-arrow-2683603.png" alt="" />
+              </div>
+              <p class="smaller-p">a smaller number</p>
+        </div>
+        
+        <div class="image">
+            <img src="./images/sixthSense.png" alt="" />
+        </div>
+      </div>
+      <div class="empty"></div>
+      <div class="empty"></div>
+      
+      <div class="input-area">
+          <div class="cong">!!! YOU WIN !!!</div>
+        <p class="cong">!!! CONGRATULATIONS !!!</p>
+        <br><br><br>
+        <div class="input-box">
+            <input type="number" class="input" placeholder="Guess a number"/>
+        <button class="check">Check</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./scripts/main.js"></script>
+  </body>
+</html>

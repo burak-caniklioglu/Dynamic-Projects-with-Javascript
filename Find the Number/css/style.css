@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Work Sans', sans-serif;
+
+}
+
+body{
+    background:linear-gradient(to right, rgb(83, 83, 83), rgb(84, 84, 247), rgb(255, 255, 112)  , rgb(83, 83, 83));
+    
+}
+
+
+
+h1{
+    font-size: 1.5rem;
+    
+}
+
+img{
+    width: 100%;
+
+}
+
+
+.container{
+    
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+    margin-top: 2rem;
+    display: grid;
+    position: relative;
+    grid-template-areas: 
+    "header empty   imagination"
+    "input-area empty  imagination"
+    
+
+}
+.header{
+    
+    grid-area: header;
+    color: rgb(79, 6, 112);
+    margin-left: 1rem;
+    margin-top: 2rem;
+    
+}
+
+.imagination{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-areas: 
+    "larger image"
+    "smaller image";
+    
+
+}
+.empty{
+    grid-area: empty;
+    width: 10rem;
+}
+.larger{
+    grid-area: larger;
+    width: 50%;
+    visibility: hidden;
+    margin-right: -30rem;
+}
+
+.smaller{
+    grid-area: smaller;
+    width: 50%;
+    visibility: hidden;
+}
+
+.image{
+    grid-area: image;
+    position: relative;
+    right: 6rem;
+    top:3rem ;
+
+}
+
+.input-area{
+    grid-area: input-area;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+}
+.cong{
+    text-align: center;
+    visibility: hidden;
+}
+
+input{
+    border-radius: 4px;
+    background-color: rgb(247, 252, 177);
+    padding-left: 0.3rem;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+button{
+    width: 6rem;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(247, 64, 177);
+    cursor: pointer;
+}
+
+.paragraph{
+    width: 60%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#result{
+    font-size: 2rem;
+    text-align: center;
+    color: rgb(167, 38, 117);
+}

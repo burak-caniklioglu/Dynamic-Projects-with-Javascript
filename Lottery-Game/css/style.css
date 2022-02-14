@@ -27,7 +27,7 @@ body{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin: 2rem 0;
+    margin: 3rem 0;
 }
 
 .circle{
@@ -98,6 +98,10 @@ input::-webkit-inner-spin-button {
 
 .message p{
     margin-bottom: 1rem;
+}
+
+#congra,#sorry{
+    visibility: hidden;
 }
 
 .buttons-area{

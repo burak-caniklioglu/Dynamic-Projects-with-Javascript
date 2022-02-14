@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lottery Game</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+<img src="./assets/spinner.gif" alt="" class="loading">
+
+<div class="container">
+    <div class="circles">
+        <div class="circle circle1">1</div>
+        <div class="circle circle2">2</div>
+        <div class="circle circle3">3</div>
+        <div class="circle circle4">4</div>
+        <div class="circle circle5">5</div>
+        <div class="circle circle6">6</div>
+        <div class="circle circle7"><img src="./images/joker.png" alt=""></div>
+        <div class="circle circle8"><img src="./images/superstar.png" alt=""></div>
+    </div>
+
+    <div class="input-area">
+        <p>Please Enter Your Number</p>
+        <div class="inputs">
+            <div class="input input1"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input2"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input3"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input4"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input5"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input6"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input7"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+            <div class="input input8"><input oninput="if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" type="number" maxlength="2"></div>
+        </div>
+
+    </div>
+
+    <div class="message">
+        <p class="score-message">Your Score : <span id="score">0</span>
+        </p>
+
+        <p id="congra">!!! CONGRATULATIONS !!!</p>
+
+        <p id="sorry">ohhh sorry...</p>
+    </div>
+
+    <div class="buttons-area">
+        <div class="buttons">
+            <button id="run">Run</button>
+            <button id="again">Again</button>
+        </div>
+    </div>
+
+</div>
+
+
+
+
+    <script src="./script/main.js"></script>
+</body>
+</html>

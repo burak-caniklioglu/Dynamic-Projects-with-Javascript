@@ -41,9 +41,10 @@ let again = document.querySelector("#again")
 
 
 
-let nums = []
+let nums = [];
 
 let luckyNumbers = ()=>{
+    
     i = 0
     
     while(i<7){
@@ -69,7 +70,6 @@ let congra = document.querySelector("#congra")
 let sorry =document.querySelector("#sorry")
 
 run.addEventListener("click", (e) =>{
-    luckyNumbers()
     // console.log(nums);
     
     for(let i = 0; i< 8; i++){
@@ -108,11 +108,7 @@ run.addEventListener("click", (e) =>{
         input8.style.backgroundColor = "limegreen"
         counter++
     }
-    console.log(nums);
-    
-    
-    
-    console.log(counter);
+    nums = []
     score.innerHTML = counter
 
     if(counter>0){
@@ -160,6 +156,7 @@ again.addEventListener("click",()=>{
     input6.style.backgroundColor = "white"
     input7.style.backgroundColor = "white"
     input8.style.backgroundColor = "white"
+    luckyNumbers()
     
     
 })

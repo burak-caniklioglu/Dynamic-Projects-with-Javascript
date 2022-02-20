@@ -49,11 +49,12 @@ button.addEventListener("click", (e)=>{
     if(namePro.value && !isNaN(price.value) && !isNaN(proNumber.value)){
         proPainel.innerHTML += createProduct(namePro.value,price.value, proNumber.value)
         form.reset();
+        productsFunc()
+        allTotal()
     }else{
         alert("Please enter a product")
     }
-    productsFunc()
-    allTotal()
+    
 
 })
 

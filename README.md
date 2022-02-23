@@ -19,6 +19,9 @@
 - [Find the Number](#find-the-number)
   - It is a number guessing game.
 
+- [Lottery Game](#lottery-game)
+  - It is a kind of lottery game
+
 
 
 <br>
@@ -55,3 +58,10 @@
 
 ## Find the Number
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Find_the_Number/index.html"><img src="./Find_the_Number/images/ss.PNG" width = "100%"></a>
+
+
+<br>
+<br>
+
+## Lottery game
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Lottery-Game/index.html"><img src="./Lottery-Game/images/ss.PNG" width = "100%"></a>

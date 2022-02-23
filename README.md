@@ -13,6 +13,9 @@
 - [Number Generator](#number-generator)
   - Generates numbers up to the number it receives from the user, a program that displays odd, even and prime numbers in different colors.
 
+- [Calculator](#calculator)
+  - Calculator program designed for simple math problems.
+
 
 
 <br>
@@ -38,3 +41,8 @@
 
 ## Number Generator
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Number_Generator/index.html"><img src="./Number_Generator/images/ss.PNG" width = "100%"></a>
+<br>
+<br>
+
+## Calculator
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Calculator/index.html"><img src="./Calculator/images/ss.PNG" width = "100%"></a>

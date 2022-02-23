@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-size: 18px;
+    font-size: 22px;
     font-family: 'Work Sans', sans-serif;
     
 
@@ -18,7 +18,7 @@
     background-color: rgb(19, 18, 19);
 }
 
-.top{
+ .top{
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -39,7 +39,7 @@
 .top .fa{
     font-size: 0.4rem;
     color: white;
-}
+} 
 
 .results{
     height: 33%;

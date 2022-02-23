@@ -16,6 +16,9 @@
 - [Calculator](#calculator)
   - Calculator program designed for simple math problems.
 
+- [Find the Number](#find-the-number)
+  - It is a number guessing game.
+
 
 
 <br>
@@ -46,3 +49,9 @@
 
 ## Calculator
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Calculator/index.html"><img src="./Calculator/images/ss.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## Find the Number
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Find_the_Number/index.html"><img src="./Find_the_Number/images/ss.PNG" width = "100%"></a>

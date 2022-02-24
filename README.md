@@ -34,7 +34,8 @@
 - [Checkout Page](#checkout-page)
   - Example of an e-commerce site's checkout page
 
-
+- [To Do App 2](#to-do-app-2)
+  - My another to do app project
 <br>
 <br>
 
@@ -94,3 +95,9 @@
 
 ## Checkout Page
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Checkout_Page/index.html"><img src="./Checkout_Page/img/ss.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## To Do App 2
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/To-Do-App-2/index.html"><img src="./To-Do-App-2/images/ss.PNG" width = "100%"></a>

@@ -25,6 +25,9 @@
 - [To Do App](#to-do-app)
   - A simple to do app project
 
+- [Student Registration](#student-registration)
+  - The system that transfers the entered student information to the table
+
 
 <br>
 <br>
@@ -73,3 +76,9 @@
 
 ## To Do App
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/To-Do-App/index.html"><img src="./To-Do-App/images/ss.png" width = "100%"></a>
+
+<br>
+<br>
+
+## Student Registration
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Student-Registration/index.html"><img src="./Student-Registration/images/ss.PNG" width = "100%"></a>

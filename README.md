@@ -22,6 +22,8 @@
 - [Lottery Game](#lottery-game)
   - It is a kind of lottery game
 
+- [To Do App](#to-do-app)
+  - A simple to do app project
 
 
 <br>
@@ -65,3 +67,9 @@
 
 ## Lottery game
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Lottery-Game/index.html"><img src="./Lottery-Game/images/ss.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## To Do App
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/To-Do-App/index.html"><img src="./To-Do-App/images/ss.png" width = "100%"></a>

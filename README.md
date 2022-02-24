@@ -36,6 +36,11 @@
 
 - [To Do App 2](#to-do-app-2)
   - My another to do app project
+
+- [Dynamic Search Bar](#dynamic-search-bar)
+  - Search bar application that dynamically brings the searched product
+
+
 <br>
 <br>
 
@@ -101,3 +106,9 @@
 
 ## To Do App 2
 <a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/To-Do-App-2/index.html"><img src="./To-Do-App-2/images/ss.PNG" width = "100%"></a>
+
+<br>
+<br>
+
+## Dynamic Search Bar
+<a href="https://burak-caniklioglu.github.io/Dynamic-Projects-with-Javascript/Search-Bar/index.html"><img src="./Search-Bar/images/ss.PNG" width = "100%"></a>
